@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Xcode_default",
     "editor.fontFamily": "Noto Mono  for Powerline",
     "editor.fontSize": 17,
     "workbench.colorCustomizations": {
@@ -12,17 +11,9 @@
         "keywords": "#9400FD",
         "strings": "#BD3712",
         "types": "#CC9900",
-        "variables": "#000000",
-        "textMateRules": [
-            {
-                "scope": "keyword.operator",
-                "settings": {
-                    "foreground": "#FF0000"
-                }
-            }
-        ]
+        "variables": "#000000"
     },
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "vs-minimal",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 500,
     "debug.inlineValues": true,
@@ -57,4 +48,5 @@
         "comments": true,
         "strings": false
     },
+    "workbench.colorTheme": "Visual Studio Light",
 }
