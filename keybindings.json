@@ -1,0 +1,71 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+    {
+        "key": "alt+cmd+left",
+        "command": "editor.fold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+[",
+        "command": "-editor.fold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+cmd+left",
+        "command": "editor.foldAllMarkerRegions",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+8",
+        "command": "-editor.foldAllMarkerRegions",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+cmd+right",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+j",
+        "command": "-editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+right",
+        "command": "editor.unfold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+]",
+        "command": "-editor.unfold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.debug.run",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "ctrl+f5",
+        "command": "-workbench.action.debug.run",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.debug.start",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.start",
+        "when": "!inDebugMode"
+    }
+]

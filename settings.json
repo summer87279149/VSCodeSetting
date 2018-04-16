@@ -1,7 +1,7 @@
 {
     "workbench.colorTheme": "Xcode_default",
     "editor.fontFamily": "Noto Mono  for Powerline",
-    "editor.fontSize": 16,
+    "editor.fontSize": 17,
     "workbench.colorCustomizations": {
         "editor.background": "#cfebd3b4"
     },
@@ -49,4 +49,12 @@
     "terminal.external.osxExec": "iTerm",
     "terminal.integrated.fontSize": 14,
     "emmet.triggerExpansionOnTab": true,
+    "[javascript]": {
+        
+    },
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": false
+    },
 }
