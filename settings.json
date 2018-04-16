@@ -1,0 +1,52 @@
+{
+    "workbench.colorTheme": "Xcode_default",
+    "editor.fontFamily": "Noto Mono  for Powerline",
+    "editor.fontSize": 16,
+    "workbench.colorCustomizations": {
+        "editor.background": "#cfebd3b4"
+    },
+    "editor.tokenColorCustomizations": {
+        "functions": "#33CC66",
+        "comments": "#0080FF",
+        "numbers": "#CC00CC",
+        "keywords": "#9400FD",
+        "strings": "#BD3712",
+        "types": "#CC9900",
+        "variables": "#000000",
+        "textMateRules": [
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#FF0000"
+                }
+            }
+        ]
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "debug.inlineValues": true,
+    "css.lint.compatibleVendorPrefixes": "warning",
+    "css.lint.boxModel": "warning",
+    "css.lint.argumentsInColorFunction": "warning",
+    "css.lint.duplicateProperties": "warning",
+    "css.lint.important": "warning",
+    "css.lint.universalSelector": "warning",
+    "less.lint.compatibleVendorPrefixes": "warning",
+    "less.lint.boxModel": "warning",
+    "less.lint.float": "warning",
+    "css.lint.float": "warning",
+    "less.lint.idSelector": "warning",
+    "less.lint.important": "warning",
+    "less.lint.zeroUnits": "warning",
+    "scss.lint.boxModel": "warning",
+    "scss.lint.compatibleVendorPrefixes": "warning",
+    "scss.lint.duplicateProperties": "warning",
+    "scss.lint.float": "warning",
+    "scss.lint.idSelector": "warning",
+    "scss.lint.important": "warning",
+    "scss.lint.universalSelector": "warning",
+    "terminal.external.osxExec": "iTerm",
+    "terminal.integrated.fontSize": 14,
+    "emmet.triggerExpansionOnTab": true,
+}
